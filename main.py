@@ -12,8 +12,5 @@ for i in range(4):
     my_sprite.set_position(50 + i * my_sprite.width, 40)
 
 
-class Card:
-    def __init__(self, name):
-        self.name = name
-
-testcard = Card("test")
+def createCard(name, health, attack):
+    pass

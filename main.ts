@@ -7,12 +7,7 @@ for (let i = 0; i < 4; i++) {
     my_sprite = sprites.create(assets.image`card_background`, SpriteKind.Player)
     my_sprite.setPosition(50 + i * my_sprite.width, 40)
 }
-class Card {
-    name: string
-    constructor(name: string): Card {
-        this.name = name
-    }
+function createCard(name: any, health: any, attack: any) {
     
 }
 
-let testcard = new Card("test")
